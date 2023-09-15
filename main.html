@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table style="width: 100%; height: 100%">
-        <!-- Main Table -->
+    <table class="main-table">
         <tr>
             <td>
-                <table border="1">
-                    <!-- Nested Table 1 -->
+                <table class="nested-table">
                     <tr>
-                        <td>
-                            Nested Table 1
-                        </td>
+                        <th colspan="2">Nested Table 1</th>
                     </tr>
                     <tr>
                         <td>Row 1, Column 1</td>
@@ -29,12 +25,9 @@
                 </table>
             </td>
             <td>
-                <table border="1">
-                    <!-- Nested Table 2 -->
+                <table class="nested-table">
                     <tr>
-                        <td>
-                            Nested Table 2
-                        </td>
+                        <th colspan="2">Nested Table 2</th>
                     </tr>
                     <tr>
                         <td>Column 1</td>
@@ -46,7 +39,7 @@
                     </tr>
                     <tr>
                         <td>List item 3</td>
-                        <td>HTML</td>
+                        <td><span class="black-bg">HTML</span></td>
                     </tr>
                 </table>
             </td>
